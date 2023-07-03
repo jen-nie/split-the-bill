@@ -4,8 +4,8 @@ export default function Home() {
   return (
     <div className="row">
       <div className="col-6">
-        <h1 className="header">Supabase Auth + Storage</h1>
-        <p className="">Experience our Auth and Storage through a simple profile management example. Create a user profile and upload an avatar image. Fast, simple, secure.</p>
+        <h1 className="header">Split the bill</h1>
+        <p className="">Never forget again who paid what.</p>
       </div>
       <div className="col-6 auth-widget">
         <AuthForm />
