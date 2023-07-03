@@ -11,5 +11,5 @@ export async function GET(req) {
     await supabase.auth.exchangeCodeForSession(code);
   }
 
-  return NextResponse.redirect(new URL("https://your-vercel-app.vercel.app/dashboard", req.url));
+  return NextResponse.redirect(new URL("https://split-the-bill-ruby.vercel.app/dashboard", req.url));
 }
