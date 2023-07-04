@@ -37,6 +37,9 @@ export default async function Index() {
                 </Link>
               ))}
             </ul>
+            <Link href="/add">
+              <button>Add new expense</button>
+            </Link>
           </div>
         </div>
       </main>
