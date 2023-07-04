@@ -6,9 +6,6 @@ Next.js handles it internally for server-side requests. For client-side requests
 
 Next has specialized CSP packages to manage CSP headers.
 
-export default handler;
-Be sure to understand the different directives and configure them according to the needs of your project.
-
 # SQL Injection Vulnerabilities:
 
 Since you don't have to write actual raw SQL queries when using Supabase, the risk of SQL injections are low. The queries are parameterized -> user inputs are separated from the query itself.
