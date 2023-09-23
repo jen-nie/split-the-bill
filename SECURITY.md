@@ -1,9 +1,5 @@
 # CORS Configuration:
 
-Next.js handles it internally for server-side requests. For client-side requests, CORS can be configured in the dashboard
-
-Addition:
-
 The standard way of NextJs is a same-origin policy. That's why the  correct headers have to be configured on the NextJS server to allow certain cross origin requests.
 In our case, we don't need to request any external resources, which is why we can just stick to the default same-origin policy of NextJS and don't need to configure CORS additionally.
 
