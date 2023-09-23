@@ -14,7 +14,6 @@ Since you don't have to write actual raw SQL queries when using Supabase, the ri
 
 # Cross-Site Scripting (XSS) Vulnerabilities:
 
-Next.js escapes content by default. We still need to be careful using external scripts.
 
 CSP also helps here to prevent cross-site scripting (XSS), clickjacking, and other code injection attacks resulting from the execution of malicious content
 in the trusted web page context. It is implemented via a web header that the server returns, which acts like a whitelist, specifying which dynamic resources are allowed to load and execute.
